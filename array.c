@@ -5,10 +5,11 @@
 int main(void)
 {
     //Creating a list to store scores and getting inputs from the user
+    // Asking users for the number of scores
+    int n=get_int("How many scores. ? \n");
+    int scores[n];
     
-    int scores[3];
-    
-    for( int i=0;i<3;i++)
+    for( int i=0;i<n;i++)
     {
         scores[i]=get_int("Scores: ");
     }
