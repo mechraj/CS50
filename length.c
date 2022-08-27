@@ -11,7 +11,7 @@ int main(void)
     //Intializing a variable
     int i=0;
     //checks for a null location
-    while(name[i]!=0)
+    while(name[i]!='\0')
     {
         i++;
     }
