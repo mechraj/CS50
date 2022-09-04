@@ -1,6 +1,7 @@
 //program to capitalize//
 #include <stdio.h>
 #include <cs50.h>
+#include <ctype.h>
 #include <cs50.c>
 #include <string.h>
 
@@ -12,7 +13,7 @@ int main(void)
     //looping through the inputs to convert the letters//
     for(int i=0, n=strlen(word);i<n;i++)
     {
-        if(word[i]>='a' && word[i]<='z')
+        if(islower(word[i]))
         {
             printf("%c",word[i]-32);
         }
@@ -21,4 +22,5 @@ int main(void)
             printf("%c",word[i]);
         }
     }
+    printf("\n");
 }
