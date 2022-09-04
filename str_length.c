@@ -1,3 +1,4 @@
+//program to print strings as an individual character//
 #include <stdio.h>
 #include <cs50.h>
 #include<cs50.c>
@@ -5,7 +6,14 @@
 
 int main(void)
 {
+    //get input from the user//
     string name=get_string("name: ");
-    int output=strlen(name);
-    printf("%i\n",output);
+    //prints the output
+    printf("output: ");
+    
+    for (int i=0;i<strlen(name);i++ )
+    {
+        printf("%c\n",name[i]);
+    }
+
 }

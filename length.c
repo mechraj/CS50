@@ -1,27 +1,25 @@
 //Program to determine the length of a string
-#include <stdio.h>
-#include <cs50.h>
-#include <cs50.c>
+#include<stdio.h>
+#include<cs50.h>
+#include<cs50.c>
+#include<string.h>
 
-//Function to count the length of a string//
-int string_length(string s);
-
-//main program//
 int main(void)
 {
-    //Ask user for name
+    //asking user for the input
     string name=get_string("Name: ");
-    int i= string_length(name);
-    printf("The length of the enterd string is, %i\n ",i);
+    
+    //printing output
+    printf("Output: \n");
+
+    //looping through the input to print each character
+    for (int i=0; i<strlen(name) ; i++)
+    {
+        printf("%c\n",name[i]);
     }
 
-// Defining the length function //
-int string_length(string s)
-{
-    int i=0;
-    while(s[i]!='\0')
-    {
-        i++;
-    }
-    return i;
+
+    
+
+
 }
