@@ -13,7 +13,7 @@ int main(void)
     printf("Output: \n");
 
     //looping through the input to print each character
-    for (int i=0; i<strlen(name) ; i++)
+    for (int i=0 , n=strlen(name) ; i<n; i++)
     {
         printf("%c\n",name[i]);
     }
