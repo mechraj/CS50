@@ -6,8 +6,8 @@
 int main(void)
 {
     string s="Hi!"; //assigning string to a variable
-    char *c=s[0]; //adding a pointer to check the location of the first word in string
-    printf("%p\n",c); //prints the location of character c
+    char *p=&s[0];
+    printf("%p\n",p); //prints the location of character c
     printf("%p\n",s); //prints the location of string s
 
 
