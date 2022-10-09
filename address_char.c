@@ -10,5 +10,10 @@ int main(void)
     printf("%p\n",p); //prints the location of character c
     printf("%p\n",s); //prints the location of string s
 
+    //checking addres of all characters
+    printf("%p\n",&s[1]);
+    printf("%p\n",&s[2]);
+    printf("%p\n",&s[3]);
+
 
 }
