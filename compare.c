@@ -10,11 +10,13 @@ int main(void)
 
     if (strcmp(s,t)==0)
     {
-        printf("Its a match");
+        printf("Its a match\n");
     }
     else
     {
-        printf("These 2 are different words.");
+        printf("These 2 are different words.\n");
     }
     
+    printf("%p\n",s);  
+    printf("%p\n",t);
 }
