@@ -1,3 +1,4 @@
+//program to compare strings
 #include<stdio.h>
 #include<cs50.h>
 #include<cs50.c>
@@ -7,7 +8,7 @@ int main(void)
     char *s=get_string("Enter a word: \n");
     char *t =get_string("Enter a word : \n");
 
-    if (s==t)
+    if (strcmp(s,t)==0)
     {
         printf("Its a match");
     }
