@@ -4,16 +4,16 @@
 
 int main(void)
 {
-    int num1=get_int("Enter a number: \n");
-    int num2=get_int("Enter a number: \n");
+    char *s=get_string("Enter a word: \n");
+    char *t =get_string("Enter a word : \n");
 
-    if (num1==num2)
+    if (s==t)
     {
         printf("Its a match");
     }
     else
     {
-        printf("These 2 are different numbers.");
+        printf("These 2 are different words.");
     }
     
 }
