@@ -7,14 +7,11 @@
     height = 8;
     length=12;
     width=10;
-    
-    //Calculating volume
-    volume= height*length*width;
-    weight= (volume+165)/166;
+   
 
     //printing out the output
     printf("Dimensions: %i %i %i\n",height,length,width);
-    printf("Volume (Cubic Inches): %i\n", volume);
-    printf("Dimensional Weight (pounds): %i\n",weight);
+    printf("Volume (Cubic Inches): %i\n", volume=height * width* length);
+    weight=printf("Dimensional Weight (pounds): %i\n",(volume+165)/166);
 
  }
