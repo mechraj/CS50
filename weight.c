@@ -1,12 +1,19 @@
-//program to compute weight of  12" x 10" x8" box.
+//program to compute weight of  a box for a shipping  company.
 
 #include <stdio.h>
  int main (void)
  {
     int height,length,width,volume,weight;  //intializing variables
-    height = 8;
-    length=12;
-    width=10;
+    //getting input from the user
+   printf("Height: \n" );
+   scanf("%i", &height);
+  
+   printf("Length: \n" );
+   scanf("%i", &length);
+    
+   printf("Width: \n");
+   scanf("%i", &width);
+    
    
 
     //printing out the output
